@@ -9,7 +9,7 @@ npm install user-input-validation
 # Usage
 
 ```js
-const userInputValidation = require('input-clr');
+const emptyInputs = require('input-clr');
 
 const data = {
   // User input data
@@ -19,7 +19,7 @@ const requiredData = [
   // Array of required input fields
 ];
 
-const result = userInputValidation.emptyInputs(data, requiredData);
+const result = emptyInputs(data, requiredData);
 console.log(result);
 
 ```
@@ -39,7 +39,7 @@ A JSON object with the following structure:
 ### data: An array containing the names of any missing required input fields. If all required input fields are present, this will be null.
 
 ```js
-const userInputValidation = require('user-input-validation');
+const emptyInputs = require('input-clr');
 
 const data = {
   username: 'john_doe',
@@ -48,7 +48,7 @@ const data = {
 
 const requiredData = ['username', 'email', 'password'];
 
-const result = userInputValidation.emptyInputs(data, requiredData);
+const result = emptyInputs(data, requiredData);
 console.log(result);
 
 ```

@@ -1,0 +1,25 @@
+{
+  "name": "input-clr",
+  "version": "1.0.0",
+  "description": "This module is designed to check user input against required input and return a JSON object indicating whether all required data is present or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinfedrick205/input-clr.git"
+  },
+  "keywords": [
+    "input"
+  ],
+  "author": "awesome_webber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevinfedrick205/input-clr/issues"
+  },
+  "homepage": "https://github.com/Kevinfedrick205/input-clr#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
